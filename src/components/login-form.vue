@@ -1,31 +1,5 @@
 <template>
-  <div>
-    <div class="input-box">
-      <span class="iconfont icon-lock icon"></span>
-      <nut-textinput
-        v-model="loginForm.userName"
-        placeholder="请输入账号"
-        :hasBorder="false"
-      />
-    </div>
-    <div class="input-box">
-      <span class="iconfont icon-user icon"></span>
-      <nut-textinput
-        v-model="loginForm.password"
-        placeholder="请输入密码"
-        :hasBorder="false"
-        type="password"
-      />
-    </div>
-    <nut-button
-      @click="loginIn"
-      class="login-btn"
-      type="primary"
-      block
-      shape="circle"
-      >登录</nut-button
-    >
-  </div>
+  <div>登录</div>
 </template>
 
 <script>
