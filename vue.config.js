@@ -21,10 +21,6 @@ module.exports = {
   },
   css: {
     loaderOptions: {
-      sass: {
-        // 这里的选项会传递给 css-loader
-        prependData: `@import "@/assets/css/custom.scss"; @import "@nutui/nutui/dist/styles/index.scss";`
-      },
       postcss: {
         plugins: [
           require("postcss-plugin-px2rem")({
